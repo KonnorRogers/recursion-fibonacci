@@ -6,7 +6,7 @@ def fib_recursive(num, num_sequence = [0, 1])
   fib_recursive(num - 1, num_sequence)
 end
 
-p fib_recursive(0)
+p fib_recursive(0) #=> 0
 p fib_recursive(2) #=> 0, 1
 p fib_recursive(1) #=> 0
 p fib_recursive(3) #=> 0, 1 , 1
